@@ -39,7 +39,7 @@ Gem::Specification.new do |spec|
   spec.metadata['changelog_uri'] = 'https://raw.githubusercontent.com/influxdata/influxdb-client-ruby/master/CHANGELOG.md'
 
   spec.files = Dir.glob('lib/**/*')
-  spec.files += %w[influxdb-client.gemspec LICENSE README.md CHANGELOG.md Rakefile]
+  spec.files += %w[latias-influxdb-client.gemspec LICENSE README.md CHANGELOG.md Rakefile]
   spec.test_files = Dir.glob('test/**/*')
   spec.require_paths = ['lib']
   spec.required_ruby_version = '>= 2.2.0'
